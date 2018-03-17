@@ -1,0 +1,95 @@
+/* start bottom-top button */
+.btp {
+    z-index: 100;
+    display: none;
+    background: #ED4B41;
+    margin-bottom: 0px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 6px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.btp:hover {
+    background: #f5b914;
+}
+
+.btp .fa {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 4px;
+}
+
+/* end bottom-top button*/
+
+/*******************
+start custom modals
+******************/
+
+.modal {
+    top: 8%;
+}
+
+.custom-modal .close-btn {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #8d97ad;
+    font-size: 25px;
+    background: #ffffff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    line-height: 19px;
+}
+
+.custom-modal .modal-body {
+    overflow: hidden;
+}
+
+.custom-modal .modal-bg-img {
+    background-size: cover;
+    background-position: center center;
+    min-height: 491px;
+}
+
+.modal1 .modal-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 40px;
+}
+
+.modal1 .input-group {
+    margin-top: -45px;
+}
+
+.modal2 .modal-bg {
+    padding: 30px 30px 30px 15px;
+}
+
+.modal3 .modal-bg {
+    padding: 50px 40px 60px 25px;
+}
+
+.modal4 .modal-bg {
+    padding: 55px 55px 55px 40px;
+}
+
+.p-0 {
+    padding: 0
+}
+
+.po-relative {
+    position: relative;
+}
+
+/* end custom modal */
