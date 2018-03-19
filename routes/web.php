@@ -12,4 +12,6 @@
 */
 
 Route::view('/','pages.index');
+Route::view('/about','pages.about');
+Route::view('/career','pages.career');
 Route::view('/contact','pages.contact');

@@ -37,37 +37,35 @@
 
     <!-- Modal -->
     <div id="myModal" class="modal fade custom-modal modal2" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-md">
             <div class="modal-content po-relative">
                 <div class="modal-body p-0 text-center">
                     <div class="row">
-                        <div class="col-lg-6 col-md-5 modal-bg-img" style="background-image: url('/images/resources/enquiry.jpg');">
-                        </div>
-                        <div class="col-lg-6 col-md-7">
+                        <div class="col-md-12">
                             <div class="modal-bg">
-                                <img src="/images/logo/logo.png" alt="Adhitthana">
+                                <img src="/images/logo/logo.png" class="img-responsive" style="width: 150px;margin:auto" alt="Adhitthana">
                                 <h5 class="font-light text-muted m-t-20 text-center">Fill The Form And We Will Get Back To You!
                                 </h5>
                                 <form class="m-t-30" name="frcontact" autocomplete="off" id="frcontact">
                                     {{csrf_field()}}
                                     <div class="row">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 form-group">
                                             <input name="name" id="name" type="text" required="required" placeholder="Name *" oninvalid="this.setCustomValidity('Please enter name')"
-                                                oninput="setCustomValidity('')">
+                                                oninput="setCustomValidity('')" class="form-control">
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 form-group">
                                             <input name="contact" id="contact" type="text" pattern="\d{10}" placeholder="Phone *" required="required" oninvalid="this.setCustomValidity('Please enter phone')"
-                                                oninput="setCustomValidity('')">
+                                                oninput="setCustomValidity('')" class="form-control">
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 form-group">
                                             <input name="email" id="email" type="email" placeholder="Email *" required="required" oninvalid="this.setCustomValidity('Please enter email')"
-                                                oninput="setCustomValidity('')">
+                                                oninput="setCustomValidity('')" class="form-control">
                                         </div>
-                                        <div class="col-lg-12">
-                                            <textarea name="_message" id="msg" rows="3" placeholder="Message"></textarea>
+                                        <div class="col-lg-12 form-group">
+                                            <textarea name="_message" id="msg" rows="3" placeholder="Message" class="form-control"></textarea>
                                         </div>
                                         <div class="col-lg-12 text-center">
-                                            <button type="submit" class="btn-one style-one radi" id="sendEnquiryModal">
+                                            <button type="submit" class="btn btn-primary" id="sendEnquiryModal">
                                                 SUBMIT
                                             </button>
                                         </div>
@@ -94,19 +92,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-4">
-                        <div class="top-left">
+                        <!-- <div class="top-left">
                             <span>Call Us:
                                 <a href="#">(+1) 828-376-0532</a>
                             </span>
-                            <form class="language">
-                                <span>Lnguage:</span>
-                                <select>
-                                    <option>EN</option>
-                                    <option>BN</option>
-                                    <option>UK</option>
-                                </select>
-                            </form>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-8">
                         <div class="top-right">
@@ -133,42 +123,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="flaticon-people">
-                                    <a href="sign-up.html">Register</a> or
-                                    <a href="sign-in.html">Sign in</a>
-                                </li>
-                                <li class="flaticon-bag-outline dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cart (03)</a>
-                                    <ul class="cart-dropdown cart bg-white">
-                                        <li>
-                                            <img src="/images/shop/3.png" alt="">
-                                            <a href="#"> Wireless IP Camera CCTV
-                                                <span class="remove">
-                                                    <i class="fa fa-times-rectangle"></i>
-                                                </span>
-                                                <br>
-                                                <p>1 X $5.00</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <img src="/images/shop/4.png" alt="">
-                                            <a href="#"> Door Sensors Alarm
-                                                <span class="remove">
-                                                    <i class="fa fa-times-rectangle"></i>
-                                                </span>
-                                                <br>
-                                                <p>1 X $24.00</p>
-                                            </a>
-                                        </li>
-                                        <li class="total_amount">
-                                            Sub Total:
-                                            <span class="margin-left-7">$29.00</span>
-                                        </li>
-                                        <li class="cart-dropdown-button">
-                                            <a class="btn btn-primary" href="#">View Cart</a>
-                                            <a class="btn btn-primary pull-right" href="#">Checkout</a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-primary">Enquiry Now</a>
                                 </li>
                             </ul>
                         </div>
@@ -197,38 +153,17 @@
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="search-bar navbar-right">
-                                    <li>
-                                        <a href="#search">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                    </li>
-                                    <li id="search" class="search-form">
-                                        <form class="header-search" action="#" method="post">
-                                            <input type="search" name="search" placeholder="Type Here">
-                                            <span class="src-close">
-                                                <i class="fa fa-times" aria-hidden="true"></i>
-                                            </span>
-                                        </form>
-                                    </li>
-                                </ul>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="index-2.html">Home-1</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-3.html">Home-2</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-4.html">Home-3</a>
-                                            </li>
-                                        </ul>
+                                    <li>
+                                        <a href="/">Home</a>
                                     </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+                                    <li>
+                                        <a href="/about">About Us</a>
+                                    </li>
+                                    <li class="dropdown" id="ddlServices">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
                                         <ul class="dropdown-menu">
                                             <li class="dropdown">
                                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
@@ -238,200 +173,26 @@
                                                     <li>
                                                         <a href="service.html">Services Style-1</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="service-2.html">Services Style-2</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="service-3.html">Services Style-3</a>
-                                                    </li>
                                                 </ul>
-                                            </li>
-                                            <li>
-                                                <a href="service-details.html">Service Details</a>
-                                            </li>
-                                            <li>
-                                                <a href="service-values.html">Service Values</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us</a>
+                                    <li class="dropdown" id="ddlProducts">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="about-us.html">About Us</a>
+                                                <a href="/">About Us</a>
                                             </li>
-                                            <li>
-                                                <a href="about-us-2.html">About Us 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="our-history.html">Our History</a>
-                                            </li>
-                                            <li>
-                                                <a href="our-mission.html">Our Mission</a>
-                                            </li>
-                                            <li>
-                                                <a href="our-vision.html">Our Vision</a>
-                                            </li>
+
                                         </ul>
                                     </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pricing
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="pricing.html">Pricing</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="pricing-extend.html">Pricing Extend</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Career
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="career.html">Career</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="application.html">Application</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Team
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="team-member.html">Team Member</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="profile-details.html">Member Profile</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Certificate
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="certification.html">Certification</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="certification-detail.html">Certification Details</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Help and Support
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="how-it-work.html">How It Work</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="general-support.html">General Support</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="help-center.html">Help Center</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="support-article-details.html">Support Article</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="terms-and-condition.html">Terms & Condition</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="testimonial.html">Testimonial</a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="gallery.html">Gallery default</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="gallery-fullwidth.html">Gallery fullwidth</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="gallery-masonry.html">Gallery masonry</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="gallery-detail.html">Gallery Details</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="quote.html">Quote</a>
-                                            </li>
-                                            <li>
-                                                <a href="faq.html">Faq</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.html">404 Page</a>
-                                            </li>
-                                        </ul>
+                                    <li>
+                                        <a href="/">E-Brochure</a>
                                     </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="shop.html">Shop</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-list.html">Shop-List</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-single.html">Shop-Single</a>
-                                            </li>
-                                            <li>
-                                                <a href="sign-in.html">Sign-In</a>
-                                            </li>
-                                            <li>
-                                                <a href="sign-up.html">Sign-Up</a>
-                                            </li>
-                                            <li>
-                                                <a href="cart.html">Cart</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">News</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="blog.html">News</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-fullwidth-box.html">News Full Box Width</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-fullwidth.html">News Full Width</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-left-sidebar.html">News Left Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-right-sidebar.html">News Right Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">News Details Right</a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details-left-sidebar.html">News Details Left</a>
-                                            </li>
-                                        </ul>
+                                    <li>
+                                        <a href="/career">Career with us</a>
                                     </li>
                                     <li>
                                         <a href="/contact">Contact</a>
@@ -678,7 +439,15 @@
             });
         });
 
-        $(".navigate ul li a[href='" + window.location.pathname + "']").parent('li').addClass("current");
+        $(document).ready(function () {
+            var hrf = $(location).attr('pathname');
+            $('.navbar-right li a[href="' + hrf + '"]').parent("li").addClass("active");
+            if (hrf.search("services") >= 0) {
+                $("#ddlServices").addClass("active");
+            } else if (hrf.search("products") >= 0) {
+                $("#ddlProducts").addClass("active");
+            }
+        });
     </script>
     </script>
 </body>

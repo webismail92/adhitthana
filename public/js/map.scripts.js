@@ -1,37 +1,28 @@
-
 google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
 	'use strict';
-	
 	var mapOptions = {
 		zoom: 14,
 		center: new google.maps.LatLng(40.672324, -74.357372), // New York
-		styles: 
-		[
-			{
+		styles: [{
 				"featureType": "administrative",
 				"elementType": "all",
-				"stylers": [
-					{
-						"saturation": "-100"
-					}
-				]
+				"stylers": [{
+					"saturation": "-100"
+				}]
 			},
 			{
 				"featureType": "administrative.province",
 				"elementType": "all",
-				"stylers": [
-					{
-						"visibility": "off"
-					}
-				]
+				"stylers": [{
+					"visibility": "off"
+				}]
 			},
 			{
 				"featureType": "landscape",
 				"elementType": "all",
-				"stylers": [
-					{
+				"stylers": [{
 						"saturation": -100
 					},
 					{
@@ -45,8 +36,7 @@ function init() {
 			{
 				"featureType": "poi",
 				"elementType": "all",
-				"stylers": [
-					{
+				"stylers": [{
 						"saturation": -100
 					},
 					{
@@ -60,44 +50,35 @@ function init() {
 			{
 				"featureType": "road",
 				"elementType": "all",
-				"stylers": [
-					{
-						"saturation": "-100"
-					}
-				]
+				"stylers": [{
+					"saturation": "-100"
+				}]
 			},
 			{
 				"featureType": "road.highway",
 				"elementType": "all",
-				"stylers": [
-					{
-						"visibility": "simplified"
-					}
-				]
+				"stylers": [{
+					"visibility": "simplified"
+				}]
 			},
 			{
 				"featureType": "road.arterial",
 				"elementType": "all",
-				"stylers": [
-					{
-						"lightness": "30"
-					}
-				]
+				"stylers": [{
+					"lightness": "30"
+				}]
 			},
 			{
 				"featureType": "road.local",
 				"elementType": "all",
-				"stylers": [
-					{
-						"lightness": "40"
-					}
-				]
+				"stylers": [{
+					"lightness": "40"
+				}]
 			},
 			{
 				"featureType": "transit",
 				"elementType": "all",
-				"stylers": [
-					{
+				"stylers": [{
 						"saturation": -100
 					},
 					{
@@ -108,8 +89,7 @@ function init() {
 			{
 				"featureType": "water",
 				"elementType": "geometry",
-				"stylers": [
-					{
+				"stylers": [{
 						"hue": "#ffff00"
 					},
 					{
@@ -123,8 +103,7 @@ function init() {
 			{
 				"featureType": "water",
 				"elementType": "labels",
-				"stylers": [
-					{
+				"stylers": [{
 						"lightness": -25
 					},
 					{

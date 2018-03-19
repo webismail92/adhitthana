@@ -66,7 +66,7 @@
                 <div class="contact-detail padding30 color-white bg-dark">
                     <h3 class="inner-title color-white">Get In Touch</h3>
                     <span class="sub-title color-white">Ground Floor, Mala Niwas, Opp. Gulmohar CHS, Charai Gaon, Chembur Naka, Chembur (East), Mumbai – 400071.
-                        </span>
+                    </span>
                     <span class="color-default">Phone Number</span>
                     <p>(+91) 976 9932 921</p>
                     <p>(+91) 750 614 7073</p>
@@ -82,13 +82,47 @@
 <div class="full-row">
     <div class="container-fluid">
         <div class="row">
-            <div id="map"></div>
+            <div class="gmap_canvas" id='gmap_canvas'></div>
+            <style>
+                .mapouter {
+                    overflow: hidden;
+                    height: 400px;
+                    width: 100%;
+                }
+
+                .gmap_canvas {
+                    background: none !important;
+                    height: 400px;
+                    width: 100%;
+                }
+            </style>
         </div>
     </div>
 </div>
 
 @endsection @section('extrajs')
 <!-- use for map style -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPZ-Erd-14Vf2AoPW2Pzlxssf6-2R3PPs&amp;callback=initMap"></script>
-<script src="/js/map.scripts.js"></script>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyDNaa8LOQISEST6NIGC78vmdnIOynR2SeU"></script>
+<script type='text/javascript'>
+    function init_map() {
+        var myOptions = {
+            zoom: 12,
+            center: new google.maps.LatLng(19.051722, 72.894993),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(19.051722, 72.894993)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: '<strong>Adhitthana</strong><br>Ground Floor, Mala Niwas, Opp. Gulmohar CHS,<br> Charai Gaon, Chembur Naka, Chembur (East), Mumbai – 400071. '
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+    }
+    google.maps.event.addDomListener(window, 'load', init_map);
+</script>
 @endsection

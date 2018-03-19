@@ -27,10 +27,16 @@
 	function headerStyle() {
 		if($header.length){
 			var windowpos = $window.scrollTop();
+			var oldsrc = '/images/logo/logo.png';
+			var newsrc = '/images/logo/logo-fixed.png';
 			if (windowpos >= 130) {
 				$header.addClass('fixed-header');
+				$('.navbar-brand img').attr('src', newsrc);
+				$('.navbar-brand img').addClass('logo');
 			} else {
 				$header.removeClass('fixed-header');
+				$('.navbar-brand img').attr('src', oldsrc);
+				$('.navbar-brand img').removeClass('logo');
 			}
 		}
 	}
