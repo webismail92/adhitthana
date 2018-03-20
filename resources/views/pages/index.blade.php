@@ -24,8 +24,8 @@
                                 <div class="col-md-8">
                                     <span>Don't
                                         <br>be afraid to say no</span>
-                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa
-                                        leo amet. Litora, netus semper morbi vulputate curabitur.</p>
+                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa leo
+                                        amet. Litora, netus semper morbi vulputate curabitur.</p>
                                     <a class="btn btn-primary margin-top-30" href="#">Learn More</a>
                                 </div>
                             </div>
@@ -40,8 +40,8 @@
                                 <div class="col-md-8">
                                     <span>Don't
                                         <br>be afraid to say no</span>
-                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa
-                                        leo amet. Litora, netus semper morbi vulputate curabitur.</p>
+                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa leo
+                                        amet. Litora, netus semper morbi vulputate curabitur.</p>
                                     <a class="btn btn-primary  margin-top-30" href="#">Learn More</a>
                                 </div>
                             </div>
@@ -56,8 +56,8 @@
                                 <div class="col-md-8">
                                     <span>Don't
                                         <br>be afraid to say no</span>
-                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa
-                                        leo amet. Litora, netus semper morbi vulputate curabitur.</p>
+                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa leo
+                                        amet. Litora, netus semper morbi vulputate curabitur.</p>
                                     <a class="btn btn-primary margin-top-30" href="#">Learn More</a>
                                 </div>
                             </div>
@@ -72,8 +72,8 @@
                                 <div class="col-md-8">
                                     <span>Don't
                                         <br>be afraid to say no</span>
-                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa
-                                        leo amet. Litora, netus semper morbi vulputate curabitur.</p>
+                                    <p>Dignissim hac tempor sed vitae mus ad montes duis libero aliquet nam torquent massa leo
+                                        amet. Litora, netus semper morbi vulputate curabitur.</p>
                                     <a class="btn btn-primary  margin-top-30" href="#">Learn More</a>
                                 </div>
                             </div>
@@ -96,10 +96,10 @@
                         ut arcu non placerat. Praesent nibh massa varius.</span>
                 </div>
                 <div class="welcome-text wow fadeInRight" data-wow-delay="300ms" data-wow-duration="500ms">
-                    <p>Eu sodales dolor vehicula euismod penatibus sociis metus eget sociosqu nonummy enim. Etiam neque
-                        augue sociis. Curabitur cum platea vulputate dui maecenas pretium. Pellentesque praesent nibh.
-                        Bibendum dis ante faucibus amet sociosqu vitae, vivamus diam nullam Vivamus est. Platea hendrerit
-                        dignissim tortor eget viverra dictumst. Imperdiet penatibus erat nam arcu libero.</p>
+                    <p>Eu sodales dolor vehicula euismod penatibus sociis metus eget sociosqu nonummy enim. Etiam neque augue
+                        sociis. Curabitur cum platea vulputate dui maecenas pretium. Pellentesque praesent nibh. Bibendum
+                        dis ante faucibus amet sociosqu vitae, vivamus diam nullam Vivamus est. Platea hendrerit dignissim
+                        tortor eget viverra dictumst. Imperdiet penatibus erat nam arcu libero.</p>
                     <a class="btn btn-primary" href="about-us.html">Read More</a>
                 </div>
             </div>
@@ -144,10 +144,10 @@
                             ut arcu non placerat.</span>
                     </div>
                     <div class="service-text">
-                        <p>Enim volutpat nam porta massa suscipit est vestibulum sollicitudin. Magna dis hymenaeos diam
-                            suspendisse sed nullam. Eros feugiat curae; luctus natoque, enim nostra bibendum facilisi
-                            nec nostra. Augue aptent, mauris nunc Primis lobortis sagittis laoreet curae; adipiscing
-                            senectus. Porttitor nam habitasse. Taciti mollis curae.</p>
+                        <p>Enim volutpat nam porta massa suscipit est vestibulum sollicitudin. Magna dis hymenaeos diam suspendisse
+                            sed nullam. Eros feugiat curae; luctus natoque, enim nostra bibendum facilisi nec nostra. Augue
+                            aptent, mauris nunc Primis lobortis sagittis laoreet curae; adipiscing senectus. Porttitor nam
+                            habitasse. Taciti mollis curae.</p>
                         <p>Pede pretium volutpat tristique magnis quisque nulla in cursus ultrices elementum feugiat laoreet
                             eu dui rutrum nostra cras etiam.</p>
                     </div>
@@ -163,8 +163,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Home Secutity</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -177,8 +176,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Cloud Security</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -191,8 +189,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Office security</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -205,8 +202,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Computer security</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -219,8 +215,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Bodyguard</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -233,8 +228,7 @@
                                 <a href="service-details.html">
                                     <h4 class="service-title">Biomatric</h4>
                                 </a>
-                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer
-                                    tent.
+                                <p>Habitant dictum metus rhoncus vitae ac ad litora etiam. Ante elementum vivamus integer tent.
                                 </p>
                                 <a class="btn-link" href="service-details.html">Read More</a>
                             </div>
@@ -415,9 +409,8 @@
                                 </a>
                                 <span class="designation">- Security Expert -</span>
                             </div>
-                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum.
-                                Vestibulum sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt
-                                orci consectetuer.</p>
+                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum. Vestibulum
+                                sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt orci consectetuer.</p>
                             <div class="social-icon margin-top-30">
                                 <a href="#">
                                     <i class="fa fa-facebook"></i>
@@ -449,9 +442,8 @@
                                 </a>
                                 <span class="designation">- Security Expert -</span>
                             </div>
-                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum.
-                                Vestibulum sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt
-                                orci consectetuer.</p>
+                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum. Vestibulum
+                                sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt orci consectetuer.</p>
                             <div class="social-icon margin-top-30">
                                 <a href="#">
                                     <i class="fa fa-facebook"></i>
@@ -483,9 +475,8 @@
                                 </a>
                                 <span class="designation">- Security Expert -</span>
                             </div>
-                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum.
-                                Vestibulum sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt
-                                orci consectetuer.</p>
+                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum. Vestibulum
+                                sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt orci consectetuer.</p>
                             <div class="social-icon margin-top-30">
                                 <a href="#">
                                     <i class="fa fa-facebook"></i>
@@ -517,9 +508,8 @@
                                 </a>
                                 <span class="designation">- Security Expert -</span>
                             </div>
-                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum.
-                                Vestibulum sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt
-                                orci consectetuer.</p>
+                            <p>Sit ad quisque. Elementum litora quam, est. Facilisis, porttitor mattis amet posuere ipsum. Vestibulum
+                                sagittis auctor risus neque sem amet mollis. Nibh curae; fusce vel tincidunt orci consectetuer.</p>
                             <div class="social-icon margin-top-30">
                                 <a href="#">
                                     <i class="fa fa-facebook"></i>
@@ -564,11 +554,12 @@
                                 <h4 class="thumb-title">Astian Flakelar</h4>
                                 <span class="rank">CEO Gsm Group</span>
                             </div>
-                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique
-                                vivamus hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum
-                                lectus Nec arcu. Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum
-                                arcu praesent pharetra litora hendrerit Porta euismod varius penatibus nascetur. Turpis
-                                dapibus placerat Tellus consequat.</p>
+                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique vivamus
+                                hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum lectus Nec arcu.
+                                Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum arcu praesent pharetra
+                                litora hendrerit Porta euismod varius penatibus nascetur. Turpis dapibus placerat Tellus
+                                consequat.
+                            </p>
                             <span class="thank color-default padding-15">Thank You</span>
                         </div>
                     </div>
@@ -579,11 +570,12 @@
                                 <h4 class="thumb-title">Hayden Dallachy</h4>
                                 <span class="rank">Human resources</span>
                             </div>
-                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique
-                                vivamus hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum
-                                lectus Nec arcu. Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum
-                                arcu praesent pharetra litora hendrerit Porta euismod varius penatibus nascetur. Turpis
-                                dapibus placerat Tellus consequat.</p>
+                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique vivamus
+                                hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum lectus Nec arcu.
+                                Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum arcu praesent pharetra
+                                litora hendrerit Porta euismod varius penatibus nascetur. Turpis dapibus placerat Tellus
+                                consequat.
+                            </p>
                             <span class="thank color-default padding-15">Thank You</span>
                         </div>
                     </div>
@@ -594,11 +586,12 @@
                                 <h4 class="thumb-title">Claudia Harker</h4>
                                 <span class="rank">Corporate secretary</span>
                             </div>
-                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique
-                                vivamus hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum
-                                lectus Nec arcu. Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum
-                                arcu praesent pharetra litora hendrerit Porta euismod varius penatibus nascetur. Turpis
-                                dapibus placerat Tellus consequat.</p>
+                            <p>Tempus varius. Velit sapien consequat egestas. Integer cursus habitasse dictum. Tristique vivamus
+                                hymenaeos. Mollis blandit lectus lectus enim sociis consequat. Rhoncus ipsum lectus Nec arcu.
+                                Feugiat, arcu quam Ad. Odio scelerisque aptent a conubia. Vestibulum arcu praesent pharetra
+                                litora hendrerit Porta euismod varius penatibus nascetur. Turpis dapibus placerat Tellus
+                                consequat.
+                            </p>
                             <span class="thank color-default padding-15">Thank You</span>
                         </div>
                     </div>

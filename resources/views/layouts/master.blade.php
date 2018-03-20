@@ -157,8 +157,18 @@
                                     <li>
                                         <a href="/">Home</a>
                                     </li>
-                                    <li>
-                                        <a href="/about">About Us</a>
+                                    <li class="dropdown" id="ddlAbout">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">About Us
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/company-profile">Company Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="/mission-vission">Mission & Vission</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="dropdown" id="ddlServices">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
@@ -189,7 +199,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/">E-Brochure</a>
+                                        <a href="/e-brochure">E-Brochure</a>
                                     </li>
                                     <li>
                                         <a href="/career">Career with us</a>
@@ -216,77 +226,10 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
                     <div class="footer-widget">
-                        <img class="nav-logo" src="/images/logo/logo.png" alt="">
+                        <img class="nav-logo" src="/images/logo/logo-fixed.png" alt="">
                         <div class="widget-content">
-                            <p>Bibendum nisi, quam varius tristique, dictum lobortis, pellentesque donec purus eu facilisis
-                                suspendisse quie integer. Facilisis integer commodo ipsum congue noi adipiscing mi aliquet,
-                                fringilla quisque. Rhoncus porttitor feugiat malesuada, luctus. Vel cum quisque id conubia
-                                curae; hymenaeos aenean mauris.</p>
-                            <ul class="address">
-                                <li>
-                                    <i class="fa fa-map-marker"></i>
-                                    <span>4214 Arlington Avenue Des Arc, AR 72040,</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>
-                                    <span>(+1) 518-636-6052, (+1) 248-537-1825</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    <span>Info@patron.com, support@patron.com</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="footer-widget">
-                        <h3 class="widget-title">Latest Tweet</h3>
-                        <div class="widget-content">
-                            <ul>
-                                <li>
-                                    <i class="fa fa-twitter"></i>
-                                    <div>
-                                        <a href="#">Molestie sed leo morbi molestie massa nascetur, aenean habitant pharetra massa velit
-                                            tempor.
-                                        </a>
-                                        12 minutes ago
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-twitter"></i>
-                                    <div>
-                                        <a href="#">nim ante nisi parturient ad. Sed vulputate. Element diam cum, pretium non accumsan
-                                            volutpat.
-                                        </a>
-                                        17 hours ago
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-twitter"></i>
-                                    <div>
-                                        <a href="#">Tempor lectus sodales feugiat cubilia etiam semper rutrum venenatis aenean.</a>
-                                        5 days ago
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="footer-widget">
-                        <h3 class="widget-title">Newsletter</h3>
-                        <div class="widget-content">
-                            <p>Leo ultrices habitant fringilla turpis eu sapien proin us fames nullam cum tempus eleifend varius
-                                in. Amet curabitur vel fames scelerisque ac placerat.</p>
-                            <form method="post" action="#">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </div>
-                                <button class="btn btn-primary" type="submit" name="newsletter">Send</button>
-                            </form>
+                            <p>We at Adhitthana realize the exigency as well as enormity of our clients' needs and vigilantly work on their specific business requirements.</p>
                             <div class="footer-social-icon">
-                                <h3 class="color-white">Find Us In</h3>
                                 <ul class="social-icon">
                                     <li>
                                         <a href="#">
@@ -308,13 +251,54 @@
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-wifi"></i>
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Quick Link</h3>
+                        <div class="widget-content">
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/company-profile">Company Profile</a>
+                                </li>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Contact us</h3>
+                        <div class="widget-content">
+                            <p>Ground Floor, Mala Niwas, Opp. Gulmohar CHS, Charai Gaon, Chembur Naka, Chembur (East), Mumbai
+                                – 400071. </p>
+                            <ul class="contact-list">
+                                <li class="call">
+                                    <a href="tel:919769932921"> +91 976 9932 921 </a>
+                                </li>
+                                <li class="call">
+                                    <a href="tel:917506147073"> +91 750 6147 073 </a> /
+                                    <a href="tel:02225228631"> 022 2522 8631 </a>
+                                </li>
+                                <li class="email">
+                                    <a href="mailto:info@adhitthana.com"> info@adhitthana.com </a>
+                                </li>
+                                <li class="email">
+                                    <a href="mailto:support@adhitthana.com"> support@adhitthana.com </a>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
@@ -325,32 +309,10 @@
     <div id="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <ul class="bottom-nav">
-                        <li>
-                            <a href="how-it-work.html">How It Work</a>
-                        </li>
-                        <li>
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="certification.html">Trusty and Safty</a>
-                        </li>
-                        <li>
-                            <a href="#">Payment</a>
-                        </li>
-                        <li>
-                            <a href="sign-up.html">My Account</a>
-                        </li>
-                        <li>
-                            <a href="help-center.html">Help & Support</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="copyright">
-                        <span>&copy; 2017 All Rights Reserved by
-                            <a href="#">Unicoder</a>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="copyright text-center">
+                        <span>&copy; 2016-2018 All Rights Reserved by
+                            <a href="/">Adhitthana</a>
                         </span>
                     </div>
                 </div>

@@ -171,7 +171,7 @@ table {
 }
 
 section {
-  padding: 70px 0;
+  padding: 20px 0;
   width: 100%
 }
 
@@ -1743,7 +1743,6 @@ li.cart-dropdown-button a {
 }
 
 .copyright span {
-  float: right;
   font-size: 12px;
   line-height: 60px
 }
