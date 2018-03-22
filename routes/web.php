@@ -16,3 +16,4 @@ Route::view('/company-profile','pages.company-profile');
 Route::view('/mission-vission','pages.mission-vission');
 Route::view('/career','pages.career');
 Route::view('/contact','pages.contact');
+Route::view('/privacy-policy','pages.privacy-policy');

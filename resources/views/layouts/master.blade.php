@@ -11,19 +11,18 @@
     <title>Adhitthana | @yield('title')</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/default-animation.css" rel="stylesheet">
     <link href="/fonts/flaticon/flaticon.css" rel="stylesheet">
     <link href="/css/range-slider.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/color.css" id="color-change">
+    <link href="/css/color.css" rel="stylesheet">
     <link href="/css/responsive.css" rel="stylesheet">
     <link href="/css/loader.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
-
+    <link href="/css/custom.css" rel="stylesheet"> @yield('extracss')
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
 </head>
 
 <body class="page-wrapper home-page-2">
@@ -101,30 +100,11 @@
                     <div class="col-md-6 col-sm-6 col-xs-8">
                         <div class="top-right">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Help and Support
-                                        <span class="fa fa-angle-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="how-it-work.html">How It Work</a>
-                                        </li>
-                                        <li>
-                                            <a href="general-support.html">General Support</a>
-                                        </li>
-                                        <li>
-                                            <a href="help-center.html">Help Center</a>
-                                        </li>
-                                        <li>
-                                            <a href="support-article-details.html">Support Article Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="terms-and-condition.html">Terms & Condition</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <li><a href="tel:+9769932921"><i class="fa fa-phone"></i> 976 9932 921</a></li>
+                                <li><a href="tel:+7506147073"><i class="fa fa-phone"></i> 750 614 7073</a></li>
+                                <li><a href="tel:+25228631"><i class="fa fa-phone"></i> 2522 8631</a></li>
                                 <li>
-                                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-primary">Enquiry Now</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-primary enquiry-btn">Enquiry Now</a>
                                 </li>
                             </ul>
                         </div>
@@ -171,29 +151,52 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown" id="ddlServices">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a href="service.html">Services Style-1</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown" id="ddlProducts">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">Services
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="/">About Us</a>
+                                               <a href="/fd">Industrial Safety Equipments</a>
+                                            </li>
+                                            <li>
+                                               <a href="/fd">Managed Transportation Services (MTS)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown" id="ddlProducts">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">Products
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/dfd">Head Protection</a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Safety Eye wear </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Hearing Protection </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Respirators </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Hand & Arm Protection </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Coveralls </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Healthcare Safety Products </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Leg & Foot Protection </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Speciality Products </a>
+                                            </li>
+                                            <li>
+                                                <a href="/fd"> Bullard (distributor) </a>
                                             </li>
 
                                         </ul>
@@ -228,7 +231,8 @@
                     <div class="footer-widget">
                         <img class="nav-logo" src="/images/logo/logo-fixed.png" alt="">
                         <div class="widget-content">
-                            <p>We at Adhitthana realize the exigency as well as enormity of our clients' needs and vigilantly work on their specific business requirements.</p>
+                            <p>We at Adhitthana realize the exigency as well as enormity of our clients' needs and vigilantly
+                                work on their specific business requirements.</p>
                             <div class="footer-social-icon">
                                 <ul class="social-icon">
                                     <li>
@@ -268,10 +272,13 @@
                                     <a href="/company-profile">Company Profile</a>
                                 </li>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <a href="/mission-vission">Mission & Vission</a>
                                 </li>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <a href="/contact">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="/privacy-policy">Privacy & Policy</a>
                                 </li>
                             </ul>
                         </div>

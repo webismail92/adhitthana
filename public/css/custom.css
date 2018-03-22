@@ -445,6 +445,11 @@ start custom modals
     position: relative;
 }
 
+.enquiry-btn {
+    line-height: 30px !important;
+    padding: 0 12px !important;
+}
+
 /* end custom modal */
 
 .form-control {
@@ -519,3 +524,30 @@ start custom modals
 }
 
 /* footer end*/
+
+/* top header start */
+
+.top-right ul li a i {
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.top-right ul li a {
+    font-size: 14px;
+}
+
+.top-right ul li {
+    padding: 0 10px;
+}
+
+.overlay-bullard::before {
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+/* top header end */
